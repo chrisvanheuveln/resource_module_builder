@@ -1,10 +1,6 @@
 
 # Using deleted
 
-<placeholder for the configuration example prior to module invocation>
-
 - name: Configure interfaces
   bfd_interfaces:
     operation: deleted
-
-<placeholder for the configuration example after module invocation>

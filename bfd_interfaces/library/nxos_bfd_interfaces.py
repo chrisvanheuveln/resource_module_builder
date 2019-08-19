@@ -80,18 +80,12 @@ options:
 EXAMPLES = """
 # Using deleted
 
-<placeholder for the configuration example prior to module invocation>
-
 - name: Configure interfaces
   bfd_interfaces:
     operation: deleted
 
-<placeholder for the configuration example after module invocation>
-
 
 # Using merged
-
-<placeholder for the configuration example prior to module invocation>
 
 - name: Configure interfaces
   bfd_interfaces:
@@ -104,12 +98,8 @@ EXAMPLES = """
         bfd_echo: disable
     operation: merged
 
-<placeholder for the configuration example after module invocation>
-
 
 # Using overridden
-
-<placeholder for the configuration example prior to module invocation>
 
 - name: Configure interfaces
   myos_interfaces:
@@ -122,12 +112,8 @@ EXAMPLES = """
         bfd_echo: disable
     operation: overridden
 
-<placeholder for the configuration example after module invocation>
-
 
 # Using replaced
-
-<placeholder for the configuration example prior to module invocation>
 
 - name: Configure interfaces
   nxos_interfaces:
@@ -139,8 +125,6 @@ EXAMPLES = """
         bfd: disable
         bfd_echo: disable
     operation: replaced
-
-<placeholder for the configuration example after module invocation>
 
 
 """

@@ -1,8 +1,6 @@
 
 # Using overridden
 
-<placeholder for the configuration example prior to module invocation>
-
 - name: Configure interfaces
   myos_interfaces:
     config:
@@ -13,5 +11,3 @@
         bfd: disable
         bfd_echo: disable
     operation: overridden
-
-<placeholder for the configuration example after module invocation>
