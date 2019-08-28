@@ -1,0 +1,11 @@
+
+# Using overridden
+
+- name: Configure hsrp attributes on interfaces
+  nxos_hsrp_interfaces:
+    config:
+      - name: Ethernet1/1
+        bfd: enable
+      - name: Ethernet1/2
+        bfd: disable
+    operation: overridden

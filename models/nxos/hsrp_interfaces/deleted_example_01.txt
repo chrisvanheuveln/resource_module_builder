@@ -1,0 +1,9 @@
+
+# Using deleted
+
+- name: Configure hsrp attributes on interfaces
+  nxos_hsrp_interfaces:
+    config:
+      - name: Ethernet1/1
+      - name: Ethernet1/2
+    operation: deleted
